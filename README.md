@@ -13,6 +13,25 @@
 - npm install aws-amplify @aws-amplify/ui-react
 - yarn add aws-amplify
 
+# Notes
+## npm
+- Download node.js(including npm) from nodejs.org website
+- save names in package.json
+- save versions to be uniform into package-lock.json
+### npm commands
+- npm installs <package name> -- global
+  - install it on Mac and path is /Users/<user name>/.npm-global/lib/node_modules
+  - access from any project on your Macbook
+- npm install <package name> -dev
+  - for the development
+## yarn
+- npm install yarn -- global
+- https://classic.yarnpkg.com/en/docs/usage
+- save names in yarn.lock 
+### yarn commands
+- yarn add <package name>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
