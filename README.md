@@ -11,6 +11,7 @@
 
 # Install commands on terminal for amplify
 - npm install aws-amplify @aws-amplify/ui-react
+- yarn add aws-amplify
 
 # Getting Started with Create React App
 

@@ -15,6 +15,20 @@ path for the amplify
 -> /Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/
 
 
+Used:
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify configure
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify pull --appId dchlx7kb3c3rp --envName staging
+rm -r /Users/hojinnam/Downloads/github/my-app/amplify-backup
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify configure --appId dchlx7kb3c3rp --envName staging
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify pull
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify console
+npm install aws-amplify @aws-amplify/ui-react
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify add auth
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify push --y
+-> --y suppresses command line prompts if defaults are available, and uses the defaults in command execution.
+-> reference: https://docs.amplify.aws/cli/usage/headless/
+
+Logs:
 /Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify configure
 /Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify pull --appId dchlx7kb3c3rp --envName staging
 
@@ -33,3 +47,6 @@ npm install aws-amplify @aws-amplify/ui-react
 /Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify push --y
 -> --y suppresses command line prompts if defaults are available, and uses the defaults in command execution.
 -> reference: https://docs.amplify.aws/cli/usage/headless/
+
+yarn add aws-amplify
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify push --y
