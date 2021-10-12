@@ -1,0 +1,35 @@
+macOS Big Sur Version 11.6
+
+install git
+download node-v14.18.1.pkg and install
+
+npm install -g @aws-amplify/cli
+
+amplify configure
+-> -bash: amplify: command not found
+
+npm config get prefix -g
+-> /Users/hojinnam/.npm-global
+
+path for the amplify
+-> /Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/
+
+
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify configure
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify pull --appId dchlx7kb3c3rp --envName staging
+
+rm -r /Users/hojinnam/Downloads/github/my-app/amplify-backup
+
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify configure --appId dchlx7kb3c3rp --envName staging
+
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify pull
+
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify console
+
+npm install aws-amplify @aws-amplify/ui-react
+
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify add auth
+
+/Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify push --y
+-> --y suppresses command line prompts if defaults are available, and uses the defaults in command execution.
+-> reference: https://docs.amplify.aws/cli/usage/headless/

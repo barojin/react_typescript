@@ -1,3 +1,17 @@
+# Dependencies for Amplify
+- node 14.18.1
+- npm 6.14.15
+- git 2.30.0
+- terminal$ npm root -g
+  - /Users/hojinnam/.npm-global/lib/node_modules
+
+# Install commands on terminal for React and typescript
+- npx create-react-app my-app --template typescript
+- npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+# Install commands on terminal for amplify
+- npm install aws-amplify @aws-amplify/ui-react
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
