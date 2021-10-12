@@ -52,3 +52,5 @@ yarn add aws-amplify
 /Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify push --y
 
 git add . commit push
+
+yarn add @aws-amplify/ui-react
