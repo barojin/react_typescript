@@ -50,3 +50,5 @@ npm install aws-amplify @aws-amplify/ui-react
 
 yarn add aws-amplify
 /Users/hojinnam/.npm-global/lib/node_modules/@aws-amplify/cli/bin/amplify push --y
+
+git add . commit push
